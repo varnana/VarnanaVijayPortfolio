@@ -89,13 +89,8 @@ const About = () => {
           lineHeight: "1.9rem",
         }}
       >
-        A backend-focused developer with a strong foundation in clean architecture, optimized
-        logic, and enterprise-level efficiency. Passionate about building scalable systems and
-        long-term business solutions, I specialize in SAP ABAP development and backend process
-        automation. Currently holding a Bachelor's degree in Computer Science, I bring both
-        academic grounding and practical exposure to modern development environments. My goal is to
-        design and deliver backend architectures that are robust, maintainable, and aligned with
-        real-world enterprise needs.
+        A data-driven professional with a strong foundation in data analytics, forecasting, and automation. I specialize in designing real-time data pipelines, building predictive models, and developing scalable BI dashboards that empower business decisions. With a Master’s degree in Web and Data Science from the University of Koblenz and hands-on experience in tools like Python, SQL, Power BI, and Azure, I bridge academic knowledge with real-world applications. My goal is to transform raw data into meaningful insights that drive efficiency, accuracy, and strategic growth
+.
       </p>
 
       <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center gap-10">

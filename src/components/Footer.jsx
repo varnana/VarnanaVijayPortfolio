@@ -8,7 +8,7 @@ const Footer = () => {
 
       <div className="flex gap-6">
         <a
-          href="https://www.linkedin.com/in/abhiram-t-78463731a/"
+          href="https://www.linkedin.com/in/varnanavijay/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-white hover:text-blue-400 transition-colors duration-300 text-[24px]"
@@ -17,7 +17,7 @@ const Footer = () => {
         </a>
 
         <a
-          href="https://github.com/Abhi-sys511"
+          href="https://github.com/varnana"
           target="_blank"
           rel="noopener noreferrer"
           className="text-white hover:text-gray-400 transition-colors duration-300 text-[24px]"

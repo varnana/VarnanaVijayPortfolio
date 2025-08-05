@@ -45,8 +45,8 @@ const Navbar = () => {
           <img src="/abhiram-logo.jpeg" alt="abhiram-logo" className="w-9 h-9 object-contain" />
 
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Abhiram T &nbsp;
-            <span className='sm:block hidden'> | SAP ABAP Cloud Back-End Developer</span>
+            Varnana Vijay &nbsp;
+            <span className='sm:block hidden'> | Software Developer/Data Analyst</span>
           </p>
         </Link>
 

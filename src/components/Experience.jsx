@@ -13,6 +13,9 @@ import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
 const ExperienceCard = ({ experience }) => {
+  // Check if the company name is Amazon
+  const isAmazon = experience.company_name.toLowerCase().includes("amazon");
+
   return (
     <VerticalTimelineElement
       contentStyle={{
@@ -33,7 +36,9 @@ const ExperienceCard = ({ experience }) => {
             <img
               src={experience.icon}
               alt={experience.company_name}
-              className="w-full h-full object-contain rounded-full"
+              className={`w-full h-full object-cover rounded-full transition-transform duration-300 ${
+                isAmazon ? "scale-[1.2]" : "scale-100"
+              }`}
             />
           </a>
         </div>
@@ -71,7 +76,7 @@ const Experience = () => {
           What I have done so far
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Internship & Training
+          Professional Experience
         </h2>
       </motion.div>
 

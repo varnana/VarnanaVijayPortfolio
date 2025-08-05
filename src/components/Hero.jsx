@@ -18,11 +18,10 @@ const Hero = () => {
 
         <div className="mt-28 md:mt-5 lg:5">
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Abhiram</span>
+            Hi, I'm <span className='text-[#915EFF]'>Varnana</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            SAP ABAP Developer passionate about building robust backend systems, clean APIs and 
-            scalable enterprise applications.
+            Data Analyst passionate about building real-time data pipelines, predictive models, and intelligent dashboards to drive informed business decisions.
           </p>
         </div>
       </div>

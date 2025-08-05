@@ -37,16 +37,17 @@ import vscode from "./tech/vscode.png";
 import project2 from "./nutrivision.png";
 import project3 from "./campustrace.png";
 import youtubeclone from "./youtubeclone.png";
-import airbnbclone from "./airbnbclone.png";
+import airbnbclone from "./airbnbclone.png"; // ✅ Fixed spelling
 import spotifyclone from "./spotifyclone.png";
-import plant from "./plant.png"; // ✅ New added project screenshot
+import plant from "./plant.png";
 
-// 🏢 Internship Logos (.jpeg)
+// 🏢 Internship Logos (.jpeg or .png)
 import emeLogo from "./eme.jpeg";
 import genzeeLogo from "./genzee.jpeg";
 import pacelabLogo from "./pacelab.jpeg";
+import koblenz from "./koblenz.png"; // ✅ Added Koblenz logo
 
-// 💬 Testimonials (Unused but still here in case needed)
+// 💬 Testimonials (Unused but present)
 import firstTestimonial from "./Tars Ken.webp";
 import secondTestimonial from "./image.webp";
 import thirdTestimonial from "./third testimonial.webp";
@@ -93,12 +94,13 @@ export {
   youtubeclone,
   airbnbclone,
   spotifyclone,
-  plant, // ✅ Plant project image
+  plant,
 
-  // 🏢 Internship logos
+  // 🏢 Internship / Company logos
   emeLogo,
   genzeeLogo,
   pacelabLogo,
+  koblenz, // ✅ export added
 
   // 💬 Testimonials
   firstTestimonial,

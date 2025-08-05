@@ -25,19 +25,49 @@ import {
   airbnbclone,
   spotifyclone,
   plant,
+  koblenz,
 } from "../assets";
+
+// ✅ New technology icon imports
+import word from "../assets/tech/word.png";
+import confluence from "../assets/tech/confluence.png";
+import gitlab from "../assets/tech/gitlab.png";
+import kubernetes from "../assets/tech/kubernetes.png";
+import _365 from "../assets/tech/365.png";
+import googleanalytics from "../assets/tech/googleanalytics.png";
+import tableau from "../assets/tech/tableau.png";
+import bi from "../assets/tech/bi.png";
+import neo4j from "../assets/tech/neo4j.png";
+import sqlserver from "../assets/tech/sqlserver.png";
+import msaccess from "../assets/tech/msaccess.png";
+import cloud from "../assets/tech/cloud.png";
+import azure from "../assets/tech/azure.png";
+import apache from "../assets/tech/apache.png";
+import plotly from "../assets/tech/plotly.png";
+import matplot from "../assets/tech/matplot.png";
+import scipy from "../assets/tech/scipy.png";
+import pytorch from "../assets/tech/pytorch.png";
+import scikit from "../assets/tech/scikit.png";
+import tensorflow from "../assets/tech/tensorflow.png";
+import r from "../assets/tech/r.png";
+import pandas from "../assets/tech/pandas.png";
+
+// ✅ Newly added
+import aws from "../assets/tech/aws.png";
+import docker from "../assets/tech/docker.png";
+import mongodb from "../assets/tech/mongodb.png";
 
 export const navLinks = [
   { id: "about", title: "About" },
-  { id: "work", title: "Work" },
+  { id: "work", title: "Work Experience" },
   { id: "contact", title: "Contact" },
 ];
 
 const services = [
-  { title: "SAP ABAP Developer", icon: backend },
-  { title: "Cloud Integration Engineer", icon: web },
-  { title: "Database Engineer", icon: mobile },
-  { title: "System Design Enthusiast", icon: creator },
+  { title: "Data Analyst", icon: backend },
+  { title: "Data Scientist", icon: web },
+  { title: "Software Developer", icon: mobile },
+  { title: "IT Consultant", icon: creator },
 ];
 
 const technologies = [
@@ -51,132 +81,109 @@ const technologies = [
   { name: "Microsoft Excel", icon: microsoft_excel },
   { name: "Eclipse IDE", icon: eclipse },
   { name: "VS Code", icon: vscode },
+
+  // ✅ New technologies
+  { name: "Microsoft Word", icon: word },
+  { name: "Confluence", icon: confluence },
+  { name: "GitLab", icon: gitlab },
+  { name: "Kubernetes", icon: kubernetes },
+  { name: "Microsoft 365", icon: _365 },
+  { name: "Google Analytics", icon: googleanalytics },
+  { name: "Tableau", icon: tableau },
+  { name: "Power BI", icon: bi },
+  { name: "Neo4j", icon: neo4j },
+  { name: "SQL Server", icon: sqlserver },
+  { name: "MS Access", icon: msaccess },
+  { name: "Google Cloud", icon: cloud },
+  { name: "Microsoft Azure", icon: azure },
+  { name: "Apache Spark", icon: apache },
+  { name: "Plotly", icon: plotly },
+  { name: "Matplotlib", icon: matplot },
+  { name: "Scipy", icon: scipy },
+  { name: "PyTorch", icon: pytorch },
+  { name: "Scikit-learn", icon: scikit },
+  { name: "TensorFlow", icon: tensorflow },
+  { name: "R", icon: r },
+  { name: "Pandas", icon: pandas },
+
+  // ✅ Newly added
+  { name: "AWS", icon: aws },
+  { name: "Docker", icon: docker },
+  { name: "MongoDB", icon: mongodb },
 ];
 
 const experiences = [
   {
-    title: "SAP ABAP Training",
-    company_name: "EME Education Center, Kochi",
+
+    title: "FC Associate I, L1",
+    company_name: "Amazon Kaiserslautern GmbH",
     icon: emeLogo,
     iconBg: "#383E56",
-    date: "June 2025 – Present",
-    company_link: "https://emeeducation.com/",
+    date: "April 2025 – Present",
     points: [
-      "Currently undergoing SAP ABAP training focused on cloud backend development.",
-      "Hands-on experience using Eclipse IDE, ABAP editor, and Microsoft Excel tools.",
-      "Learning report creation, modularization, and performance tuning in ABAP.",
-      "Preparing for Microsoft Excel certification exam.",
+      "Resolved operational and inventory issues using root cause analysis.",
+      "Maintained fulfillment center KPIs through continuous process monitoring.",
+      "Identified and escalated data discrepancies impacting stock and operations.",
+      "Supported data-related audits and process checks.",
     ],
   },
   {
-    title: "Cybersecurity Intern",
-    company_name: "Genzee Technologies, Kochi",
+    title: "Applied Data Scientist (Working Student)",
+    company_name: "Phinc GmbH",
     icon: genzeeLogo,
     iconBg: "#E6DEDD",
-    date: "July 2024",
-    company_link: "https://genzeetechnologies.in/",
+    date: "Mar 2023 – Sep 2023",
     points: [
-      "Studied cybersecurity principles, malware analysis, and ethical hacking basics.",
-      "Explored penetration testing frameworks and data security protocols.",
-      "Understood risk mitigation strategies in modern IT systems.",
-      "Hands-on exposure to secure system environments.",
+      "Designed ETL pipelines for manufacturing data extraction and processing.",
+      "Automated Excel-based reports into dynamic Power BI dashboards using DAX.",
+      "Built real-time data processing workflows with Python and SQL.",
+      "Reduced reporting delivery time by 50% through workflow optimization.",
+      "Collaborated with cross-functional teams on data anomaly detection.",
+      "Tools: Python, SQL, Azure, AWS, Docker, Spark.",
     ],
   },
   {
-    title: "Python Development Intern",
-    company_name: "Pace Lab, Kochi",
+    title: "Co-founder & Data Analyst",
+    company_name: "Adnixpro, Kerala",
     icon: pacelabLogo,
     iconBg: "#383E56",
-    date: "May 2023",
+    date: "May 2016 – Mar 2021",
     points: [
-      "Completed 14-day internship focused on Python development basics.",
-      "Developed small backend tools using core Python logic and file handling.",
-      "Gained confidence in syntax, loops, and modular programming.",
-      "Worked on real-time exercises like calculators and data processors.",
+      "Developed ML models for sales forecasts, improving accuracy by 35%.",
+      "Automated inventory reporting with Excel macros and trend dashboards.",
+      "Analysed customer behaviour patterns to optimize service offerings.",
+      "Led business decisions based on real-time KPI dashboards.",
+      "Managed financial reports and client metrics.",
+    ],
+  },
+  {
+    title: "Research & Teaching Assistant",
+    company_name: "University of Koblenz",
+    icon: koblenz,
+    iconBg: "#E6DEDD",
+    date: "Nov 2022 – Feb 2023",
+    points: [
+      "Mentored 200+ students in Python, R, and data visualization techniques.",
+      "Designed lecture content on data wrangling, text mining, and cloud services.",
+      "Evaluated student progress and provided feedback on assignments.",
+      "Assisted professors in delivering applied data science content.",
+    ],
+  },
+  {
+    title: "Research Internship – AI-NET-PROTECT",
+    company_name: "University of Koblenz",
+    icon: koblenz,
+    iconBg: "#E6DEDD",
+    date: "Oct 2022 – Mar 2023",
+    points: [
+      "Contributed to ML-based health prediction app using Angular.",
+      "Improved system response time by 30% with better data validation.",
+      "Applied data quality checks and usability metrics.",
+      "Designed UI layouts with faster rendering and cleaner data flows.",
     ],
   },
 ];
 
-const projects = [
-  {
-    name: "NutriVision",
-    description:
-      "AI-powered health tool that predicts vitamin deficiencies from facial images using webcam input. Built with advanced CNN models like ResNet and DenseNet to analyze skin, lips, tongue, and eyes. Focuses on preventive care by providing instant feedback and nutritional suggestions. Demonstrates strong computer vision integration in health tech. Ideal use-case for non-invasive diagnostics in early screening.",
-    tags: [
-      { name: "Python", color: "blue-text-gradient" },
-      { name: "CNN", color: "green-text-gradient" },
-      { name: "Image-Processing", color: "pink-text-gradient" },
-      
-    ],
-    image: project2,
-    source_code_link: "https://github.com/Abhi-sys511/NutriVision",
-  },
-  {
-    name: "CampusTrace",
-    description:
-      "Lost & found platform tailored for academic campuses. Offers user and admin portals with item tracking, claim verification, and notifications. Enhances transparency, reduces misplacement rate, and ensures data privacy. Built for community trust with real-time moderation. Peer-reviewed and conference-published project with practical value.",
-    tags: [
-      { name: "Web-app", color: "blue-text-gradient" },
-      { name: "Privacy", color: "green-text-gradient" },
-      { name: "Security", color: "pink-text-gradient" },
-      { name: "Python", color: "orange-text-gradient" },
-      { name: "PHP", color: "green-text-gradient" },
-      { name: "MySQL", color: "blue-text-gradient" },
-    ],
-    image: project3,
-    source_code_link: "https://github.com/Abhi-sys511/CampusTrace",
-  },
-  {
-    name: "Airbnb Console Clone",
-    description:
-      "A terminal-based Airbnb experience reimagined using pure Python and file-based storage. Simulates listing, booking, and user account management with structured menus and logic. Great for beginners aiming to understand core CRUD operations and backend flow. Strengthens CLI app design without relying on UI. Perfect demonstration of modular design in console-based apps.",
-    tags: [
-      { name: "Python", color: "blue-text-gradient" },
-      { name: "Console-UI", color: "green-text-gradient" },
-      { name: "Booking-flow", color: "orange-text-gradient" },
-      { name: "React-App", color: "blue-text-gradient" },
-    ],
-    image: airbnbclone,
-    source_code_link: "https://github.com/Abhi-sys511/Airbnb-Clone",
-  },
-  {
-    name: "YouTube Clone",
-    description:
-      "Frontend clone of YouTube using React and Tailwind CSS. Features dynamic video feed via RapidAPI, search suggestions, responsive design, and category filters. Mimics YouTube’s layout including sidebar, video grid, and player screen. Great demonstration of modern UI practices and API integration.",
-    tags: [
-      { name: "React", color: "blue-text-gradient" },
-      { name: "Rapid-API", color: "green-text-gradient" },
-      { name: "Youtube-API", color: "pink-text-gradient" },
-    ],
-    image: youtubeclone,
-    source_code_link: "https://github.com/Abhi-sys511/YouTube-Clone",
-  },
-  {
-    name: "Spotify Clone",
-    description:
-      "Spotify-like frontend project with React and Tailwind CSS. Includes album grid, playlist preview, audio controls, and smooth hover effects. Designed for responsive layout and sleek transitions. Highlights UI design strength and attention to modern component structuring.",
-    tags: [
-      { name: "React", color: "blue-text-gradient" },
-      { name: "Tailwindcss", color: "green-text-gradient" },
-      { name: "Music-UI", color: "pink-text-gradient" },
-    ],
-    image: spotifyclone,
-    source_code_link: "https://github.com/Abhi-sys511/spotify-clone",
-  },
-  {
-    name: "Plant Disease Detection",
-    description:
-      "Deep learning web tool to identify plant diseases from leaf images. Built with CNNs for real-time classification. Provides instant feedback and remedies for farmers. Optimized for rural usability with a simple UI. Empowers agriculture with AI for crop health and yield improvement.",
-    tags: [
-      { name: "CNN", color: "blue-text-gradient" },
-      { name: "Plant-AI", color: "green-text-gradient" },
-      { name: "Vision-Model", color: "pink-text-gradient" },
-    ],
-    image: plant,
-    source_code_link:
-      "https://github.com/Abhi-sys511/plant-disease-detection-web-app",
-  },
-];
 
 const publicationAndResume = {
   publication: {
@@ -195,6 +202,5 @@ export {
   services,
   technologies,
   experiences,
-  projects,
   publicationAndResume,
 };

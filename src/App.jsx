@@ -10,7 +10,6 @@ import {
   StarsCanvas,
 } from "./components";
 
-import Certification from "./components/Certification";
 import Footer from "./components/Footer";
 
 const App = () => {
@@ -27,9 +26,6 @@ const App = () => {
         <About />
         <Experience />
         <Tech />
-
-        {/* ✅ Certification comes BEFORE Works */}
-        <Certification />
 
         {/* Projects section */}
         <Works />
