@@ -13,8 +13,9 @@ import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
 const ExperienceCard = ({ experience }) => {
-  // Check if the company name is Amazon
+  // Check if the company name is Amazon or EME
   const isAmazon = experience.company_name.toLowerCase().includes("amazon");
+  const isEME = experience.company_name.toLowerCase().includes("eme");
 
   return (
     <VerticalTimelineElement
@@ -36,9 +37,14 @@ const ExperienceCard = ({ experience }) => {
             <img
               src={experience.icon}
               alt={experience.company_name}
-              className={`w-full h-full object-cover rounded-full transition-transform duration-300 ${
-                isAmazon ? "scale-[1.2]" : "scale-100"
-              }`}
+              className="w-full h-full object-cover rounded-full transition-transform duration-300"
+              style={{
+                transform: isAmazon
+                  ? "scale(1.2)"
+                  : isEME
+                  ? "scale(1.3)"
+                  : "scale(1)",
+              }}
             />
           </a>
         </div>

@@ -21,7 +21,7 @@ const Contribution = () => {
             <strong className="text-white">Supervisor:</strong> Prof. Dr. Frank Hopfgartner & Prof. Dr. Na Li
           </p>
           <p className="text-base sm:text-lg text-gray-400">
-            <strong className="text-white">Duration:</strong> March 2024 – August 2024
+            <strong className="text-white">Duration:</strong> March 2024 – November 2024
           </p>
         </div>
         <p className="text-gray-300 leading-relaxed mb-4 text-[17px]">

@@ -21,7 +21,8 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Varnana</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Data Analyst passionate about building real-time data pipelines, predictive models, and intelligent dashboards to drive informed business decisions.
+            Software Developer with a focus on Data Analytics, AI, and Intelligent Systems
+Driven to build software solutions that transform data into actionable intelligence. Proficient in designing and building interactive dashboards that transform complex data into clear, actionable insights. Skilled in using modern BI tools to create visually compelling, user friendly reports that support data-driven decision-making.
           </p>
         </div>
       </div>

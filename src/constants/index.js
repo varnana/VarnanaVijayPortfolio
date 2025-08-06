@@ -67,7 +67,7 @@ const services = [
   { title: "Data Analyst", icon: backend },
   { title: "Data Scientist", icon: web },
   { title: "Software Developer", icon: mobile },
-  { title: "IT Consultant", icon: creator },
+  { title: "Research   & Teaching Assistant", icon: creator },
 ];
 
 const technologies = [
@@ -117,14 +117,15 @@ const experiences = [
 
     title: "FC Associate I, L1",
     company_name: "Amazon Kaiserslautern GmbH",
+    subtitle: "Department of Problem Solving",
     icon: emeLogo,
     iconBg: "#383E56",
     date: "April 2025 – Present",
     points: [
-      "Resolved operational and inventory issues using root cause analysis.",
-      "Maintained fulfillment center KPIs through continuous process monitoring.",
-      "Identified and escalated data discrepancies impacting stock and operations.",
-      "Supported data-related audits and process checks.",
+      "Resolving operational and inventory issues using root cause analysis.",
+      "Maintaining fulfillment center KPIs through continuous process monitoring.",
+      "Identifying and escalating data discrepancies impacting stock and operations",
+      "Supporting data-related audits and process checks.",
     ],
   },
   {
@@ -134,26 +135,18 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Mar 2023 – Sep 2023",
     points: [
-      "Designed ETL pipelines for manufacturing data extraction and processing.",
-      "Automated Excel-based reports into dynamic Power BI dashboards using DAX.",
-      "Built real-time data processing workflows with Python and SQL.",
-      "Reduced reporting delivery time by 50% through workflow optimization.",
-      "Collaborated with cross-functional teams on data anomaly detection.",
-      "Tools: Python, SQL, Azure, AWS, Docker, Spark.",
-    ],
-  },
-  {
-    title: "Co-founder & Data Analyst",
-    company_name: "Adnixpro, Kerala",
-    icon: pacelabLogo,
-    iconBg: "#383E56",
-    date: "May 2016 – Mar 2021",
-    points: [
-      "Developed ML models for sales forecasts, improving accuracy by 35%.",
-      "Automated inventory reporting with Excel macros and trend dashboards.",
-      "Analysed customer behaviour patterns to optimize service offerings.",
-      "Led business decisions based on real-time KPI dashboards.",
-      "Managed financial reports and client metrics.",
+    "Designed ETL pipelines for manufacturing data extraction and processing.",
+    "ETL for Production Processes: Utilised Python for efficient manufacturing data extraction, transformation and loading (ETL).",
+    "Real-time Data Processing: Developed pipelines for real-time data retrieval and analysis from cloud storage and SQL databases.",
+    "Automated Excel-based reports into dynamic Power BI dashboards using DAX.",
+    "DAX Proficiency: Upgraded an Excel project to Power BI. Created user-specific dashboards using DAX, with complex parameter relationships and achieved a 50% reduction in delivery time.",
+    "Built real-time data processing workflows with Python and SQL.",
+    "Reduced reporting delivery time by 50% through workflow optimization.",
+    "Data Visualisation: Created custom reports with Python and conducted A/B testing on visual layouts and KPI combinations to identify the most effective presentation formats.",
+    "Collaborated with cross-functional teams on data anomaly detection.",
+    "Tools: Python, SQL, Azure, AWS, Docker, Spark.",
+    "Python Proficiency in Data Analysis and Visualisation.",
+    "Power BI Reporting and Visualisation.",
     ],
   },
   {
@@ -166,7 +159,7 @@ const experiences = [
       "Mentored 200+ students in Python, R, and data visualization techniques.",
       "Designed lecture content on data wrangling, text mining, and cloud services.",
       "Evaluated student progress and provided feedback on assignments.",
-      "Assisted professors in delivering applied data science content.",
+      "Coordinated and delivered biweekly tutorial and feedback sessions on assignments.",
     ],
   },
   {
@@ -180,6 +173,21 @@ const experiences = [
       "Improved system response time by 30% with better data validation.",
       "Applied data quality checks and usability metrics.",
       "Designed UI layouts with faster rendering and cleaner data flows.",
+    ],
+  },
+  {
+    title: "Co-founder & Data Analyst",
+    company_name: "Adnixpro, Kerala",
+    icon: pacelabLogo,
+    iconBg: "#383E56",
+    date: "May 2016 – May 2021",
+    points: [
+      "Developed ML models for sales forecasts, improving accuracy by 35%.",
+      "Automated inventory reporting using Excel macros and created interactive dashboards.",
+      "Analysed customer behavioural patterns to optimize service offerings.",
+      "Led business decisions based on real-time KPIs.",
+      "Managed financial reports and client metrics.",
+      "Maintained warehouse and inventory.",
     ],
   },
 ];
