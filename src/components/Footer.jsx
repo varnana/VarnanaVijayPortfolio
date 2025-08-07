@@ -7,7 +7,6 @@ const FooterWithDetails = () => {
       
       {/* Personal Details Section - Centered */}
       <div className="text-center text-[16px] leading-relaxed mb-6 space-y-2">
-        <p> Address:   Wackenmühl straße 16, 67655 Kiaserslautern</p>
         <p> Date Of Birth:   31 January 1997</p>
         <p> Nationality:   Indian</p>
         <p> Mobile:   +49 1782036414</p>
